@@ -1,0 +1,24 @@
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -350px;
+  width: 350px;
+  height: 100%;
+  background: white;
+  transition: 0.3s;
+  padding: 15px;
+}
+
+.cart-sidebar.open {
+  right: 0;
+}
+
+.cart-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.quantity-controls button {
+  margin: 0 5px;
+}
